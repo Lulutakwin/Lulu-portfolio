@@ -1,0 +1,252 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    border:none ;
+    font-family: sans-serif;
+
+}
+.body{
+    width: 100%;
+    height: 100%;
+
+}
+.nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-bottom: 1px solid grey;
+   
+    padding: 20px 0 ;
+}
+.logo{
+    color: #004aad;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+.logo sup{
+color: #d8ac4e;
+
+}
+.menu-containe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu{
+font-size:24px;
+color: black;
+font-weight: 500;
+}
+.hero-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+  
+
+h3{
+    font-size: 32px;
+    font-weight: 500;
+
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin:10px 0;
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    background-color: #004aad;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 30px;
+
+}
+
+button:hover{
+    background-color: transparent;
+    border: 1px solid #004aad;
+    color: #004aad;
+    cursor: pointer;
+}
+.sci{
+    display: flex;
+   gap: 22px;
+   margin-top: 20px;
+}
+.sci div{
+width: 50px;
+height: 50px;
+background-color:transparent;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+border:1px solid #004aad;
+cursor: pointer;
+}
+.sci div:hover{
+    background-color: #004aad;
+    color: white;
+
+
+}
+.img-wrapper{
+  width: 28vw;  
+  height:28vw;
+  background-color:#d8ac4e;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.WD, .GD, .AD{
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen {
+    
+}
+.about-section{
+    display: flex;
+    margin: 50px;
+    gap: 30px;
+    height: 100vh;
+}
+.about-title{
+    width: 40%;
+    background-color: #004aad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+    gap: 20px;
+}
+.about-info{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+  
+
+}
+
+.contacts-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phone-no, .em{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.service {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    font-size:30px;
+    font-weight: 800;
+}
+
+.service-info{
+    display: flex;
+     justify-content: center;
+    border:solid rgb(82, 75, 75) 1px;
+    padding-top: 20px;
+    height: 70vh;
+   align-items: center;
+   padding: 50px;
+   gap: 20px;
+}
+h4{
+    font-size: 20px;
+
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    padding: 50px;
+}
+
+input{
+    border: 1px solid grey;
+    padding: 10px 10px;
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.submit{
+    padding: 10px 60px;
+    background-color: #004aad;
+}
+
+.footer{
+    height: 20vh;
+    background: white;
+    display: flex;
+    gap:250px;
+    padding: 30px;
+    border: 2px solid #d8ac4e;
+}
+
+.footer-sci div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #004aad;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.footer-sci{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ } 
+
+.logo2{
+    color: aliceblue;
+}
+.copywrite h4{
+    font-size:30px;
+    font-weight: 700;
+    font-stretch: extra-condensed;
+    
+}
+.footer-sci :hover{
+    background-color: #d8ac4e;
+}
+.box{
+    border: 1px solid black;
+}
+
+
+    
